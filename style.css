@@ -1,0 +1,32 @@
+body{
+    font-size: 17px;
+    line-height: 1.2;
+}
+#header{
+    background-color: tomato;
+    text-align: center;
+}
+#wrapper{
+    width: 960px;
+    margin: 0 auto;
+}
+
+
+#backtop{
+   width: 100px;
+   height: 100px;
+   background-color: rgb(28, 25, 219);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border-radius: 50%;
+   position: fixed;
+   bottom: 40px;
+   right: 20px;
+   cursor: pointer;
+}
+
+img{
+    width: 40px;
+    height: 40px;
+}
